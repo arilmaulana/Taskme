@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "ohyu";
+  src: url(../font/Super\ Positive\ Personal\ Use.ttf);
+}
+
+.nav {
+  background-color: #ace2e1;
+  height: 50px;
+}
+.ig {
+  /* border: 1px solid black; */
+  width: 50px;
+  margin: auto;
+  margin-right: 20px;
+}
+.dnav {
+  margin: auto auto;
+  /* border: 1px solid black; */
+}
+.brand1 {
+  font-family: "ohyu", cursive;
+
+  /* border: 1px solid black; */
+  margin-left: 0px;
+  margin-top: -5px;
+}
+.span1 {
+  color: #fefbf6;
+  margin-right: 1px;
+}
+.spantengah {
+  color: #3c3633;
+}
+.span2 {
+  color: #faef5d;
+  margin-left: 3px;
+}
+.hero {
+  width: 100%;
+  margin-top: 0px;
+}
+
+.first {
+  font-size: 3.5rem;
+}
+
+.banner {
+  width: 100%;
+  font-size: 15px;
+  margin-top: -15px;
+  color: white;
+}
+.fa-solid {
+  color: black;
+}
+.col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+.card-text {
+  font-size: 14px;
+}
+.why {
+  height: 500px;
+}
+
+.jumbotron {
+  height: 70px;
+}
+
+.about {
+  font-family: "Merriweather", serif;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: -10px;
+  z-index: 1000;
+}
+
+.whatsapp-float-button {
+  display: inline-block;
+  width: 50px;
+  height: 70px;
+  border-radius: 50%;
+  color: #25d366;
+  font-size: 35px;
+  line-height: 60px;
+  transition: all 0.3s ease;
+}
+.fa-whatsapp {
+  margin-left: 0;
+}
+.navigasi {
+  font-family: "Pacifico", cursive;
+}
+.neue {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.image {
+  border: 1px solid black;
+}
+a {
+  text-decoration: none;
+}
+.nav2 {
+  margin-top: 0px;
+}
+.second {
+  font-family: roboto;
+  color: white;
+}
+.brand2 {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #fefbf6;
+  text-shadow: 3px 3px black;
+}
+
+.flex-wrap {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: auto;
+}
+.card:hover {
+  border-radius: 2px 2px red;
+}
+/* bg */
+.gradient {
+  width: 100vw;
+
+  background: linear-gradient(334deg, #6b97f7, #7525e2, #f7137e);
+  background-size: 180% 180%;
+  animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.coro {
+  padding: 20px 50px;
+}
+h5 {
+  color: #fefbf6;
+}
+#pelayanan {
+  margin-top: 40px;
+  padding-top: 5px;
+}
+.col-md-4 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.col-md-4 > img {
+  width: 40%;
+  margin: auto;
+}
+
+.rowes {
+  display: flex;
+  justify-content: center;
+}
+.kenapa {
+  margin-top: 50px;
+}
+.temu {
+  padding-top: 20px;
+  margin-bottom: 60px;
+}
